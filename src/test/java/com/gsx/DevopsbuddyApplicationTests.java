@@ -23,7 +23,7 @@ public class DevopsbuddyApplicationTests {
 		String expectedResult = "Bootstrap starter template";
 		String messageId = "index.main.callout";
 		String actual = i18nService.getMessage(messageId);
-		Assert.assertEquals("Test fail, no match", expectedResult, actual);
+		Assert.assertEquals("Testing in 2017 LUL", expectedResult, actual);
 	}
 
 }
